@@ -1,9 +1,10 @@
 /** @format */
+import Hero from '@/app/components/hero'
 
 export default function Home() {
   return (
-    <div>
-      <h1>heloo home page</h1>
-    </div>
+    <>
+      <Hero />
+    </>
   )
 }
