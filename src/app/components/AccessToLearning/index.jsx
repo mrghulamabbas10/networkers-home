@@ -117,10 +117,10 @@ export default function index() {
                               y2='35.8047'
                               gradientUnits='userSpaceOnUse'
                             >
-                              <stop stopColor='#8687FF' />
+                              <stop stop-color='#8687FF' />
                               <stop
                                 offset='1'
-                                stopColor='#9798F3'
+                                stop-color='#9798F3'
                                 stopOpacity='0'
                               />
                             </linearGradient>
@@ -154,10 +154,10 @@ export default function index() {
                               y2='35.8047'
                               gradientUnits='userSpaceOnUse'
                             >
-                              <stop stopColor='#86DBFF' />
+                              <stop stop-color='#86DBFF' />
                               <stop
                                 offset='1'
-                                stopColor='#97F3EE'
+                                stop-color='#97F3EE'
                                 stopOpacity='0'
                               />
                             </linearGradient>
@@ -194,10 +194,10 @@ export default function index() {
                               y2='35.8047'
                               gradientUnits='userSpaceOnUse'
                             >
-                              <stop stopColor='#FD86FF' />
+                              <stop stop-color='#FD86FF' />
                               <stop
                                 offset='1'
-                                stopColor='#F397DF'
+                                stop-color='#F397DF'
                                 stopOpacity='0'
                               />
                             </linearGradient>
@@ -232,10 +232,10 @@ export default function index() {
                               y2='35.8047'
                               gradientUnits='userSpaceOnUse'
                             >
-                              <stop stopColor='#FFB186' />
+                              <stop stop-color='#FFB186' />
                               <stop
                                 offset='1'
-                                stopColor='#F3D497'
+                                stop-color='#F3D497'
                                 stopOpacity='0'
                               />
                             </linearGradient>

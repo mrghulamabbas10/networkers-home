@@ -24,7 +24,7 @@ export default function ArrowIcon() {
           y2='8'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#242D4F' />
+          <stop stop-color='#242D4F' />
           <stop
             offset='1'
             stopColor='#242D4F'

@@ -12,7 +12,7 @@ import SearchIcon from '../assets/svg/search'
 import BlueBack from '../assets/svg/blueBack'
 import WhiteRight from '../assets/svg/whiteRight'
 
-export default function index() {
+export default function Index() {
   const [isOpen, setIsOpen] = useState(true)
 
   const handleToggle = () => {
