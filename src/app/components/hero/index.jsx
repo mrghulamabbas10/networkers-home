@@ -38,6 +38,7 @@ export default function Index() {
                   src={ArrowImage}
                   alt='Arrow Image'
                   className='right-0 top-0 absolute translate-x-0 translate-y-10'
+                  placeholder='blur'
                 />
               </div>
               <div className='mt-10'>
@@ -78,16 +79,19 @@ export default function Index() {
                   src={StarIcon}
                   alt='Arrow Image'
                   className='right-0 top-0 absolute -translate-x-[0%] translate-y-[30%]'
+                  placeholder='blur'
                 />
                 <Image
                   src={StarIcon}
                   alt='Arrow Image'
                   className='right-0 top-0 translate-x-[200%] translate-y-[500%] absolute w-8'
+                  placeholder='blur'
                 />
                 <Image
                   src={StarIcon}
                   alt='Arrow Image'
                   className='right-0 bottom-0 absolute w-8 -translate-x-[100%] translate-y-[150%]'
+                  placeholder='blur'
                 />
               </div>
             </div>
@@ -132,6 +136,7 @@ export default function Index() {
                     <Image
                       src={Certification}
                       alt='Certification'
+                      placeholder='blur'
                     />
                   </div>
                   <div className='flex flex-col w-full'>
@@ -139,6 +144,7 @@ export default function Index() {
                       src={Student}
                       alt='Student'
                       className='rounded-md shadow-lg  '
+                      placeholder='blur'
                     />
                   </div>
                 </div>

@@ -60,6 +60,7 @@ export default function Navbar() {
                   alt='logo'
                   width={288}
                   height={72}
+                  placeholder='blur'
                 />
               </Link>
             </div>

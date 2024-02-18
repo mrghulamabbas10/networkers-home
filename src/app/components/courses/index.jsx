@@ -38,6 +38,7 @@ export default function Index() {
                 src={ArrowImage}
                 alt='Arrow Image'
                 className='right-0 top-0 absolute rotate-12 translate-x-32 -translate-y-10'
+                placeholder='blur'
               />
             </div>
           </Grid>
@@ -111,6 +112,7 @@ export default function Index() {
                           src={StudentImage2}
                           alt='Student Image'
                           className='rounded-3xl w-[524px] h-[461px] object-cover'
+                          placeholder='blur'
                         />
                       </div>
                     </div>
