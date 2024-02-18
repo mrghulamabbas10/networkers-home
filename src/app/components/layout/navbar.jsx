@@ -47,7 +47,7 @@ export default function Navbar() {
   return (
     <div className='md:block xs:hidden'>
       <Container maxWidth='xl'>
-        <ThemeSwitcher />
+        {/* <ThemeSwitcher /> */}
         <nav className='sticky w-full z-20 top-0 start-0  '>
           <div className='flex justify-between items-center h-20 '>
             <div>
