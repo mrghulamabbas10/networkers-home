@@ -60,7 +60,6 @@ export default function Navbar() {
                   alt='logo'
                   width={288}
                   height={72}
-                  placeholder='blur'
                 />
               </Link>
             </div>
@@ -74,7 +73,7 @@ export default function Navbar() {
                     <li key={index}>
                       <Link
                         href={item.linkPath}
-                        className={` dark:text-white text-[#1C274C] text-xl${
+                        className={`  text-[#1C274C] text-xl${
                           router.pathname === item.linkPath ? 'font-bold' : ''
                         }`}
                       >

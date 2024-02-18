@@ -26,15 +26,13 @@ export default function RootLayout({ children }) {
       lang='en'
       suppressContentEditableWarning
     >
-      <body
-        className={`bg-white text-black dark:bg-[#1E1E1E] dark:text-[#FFFEF2] ${outfit.className}`}
-      >
-        <Providers>
-          <Navbar />
-          <main>{children}</main>
-          <Footer />
-        </Providers>
+      <body className={` ${outfit.className}`}>
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   )
 }
+
+// bg-white text-black dark:bg-[#1E1E1E] dark:text-[#FFFEF2]

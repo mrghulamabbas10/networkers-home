@@ -36,7 +36,6 @@ export default function index() {
                       src={StudentImage}
                       alt='Student Image'
                       className='rounded-3xl'
-                      placeholder='blur'
                     />
                   </div>
                   <div className='bg-white absolute bottom-0 right-0 p-5 rounded-tl-3xl '>
@@ -81,7 +80,6 @@ export default function index() {
                       src={StudentImage2}
                       alt='Student Image'
                       className='rounded-3xl'
-                      placeholder='blur'
                     />
                   </div>
                 </div>

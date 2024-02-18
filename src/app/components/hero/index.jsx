@@ -27,7 +27,7 @@ export default function Index() {
             <div>
               <div className='relative'>
                 <h1
-                  className={`text-[120px] text_color font-extrabold blod uppercase dark:text-white `}
+                  className={`text-[120px] text_color font-extrabold blod uppercase  `}
                 >
                   Online learning
                 </h1>
@@ -38,24 +38,23 @@ export default function Index() {
                   src={ArrowImage}
                   alt='Arrow Image'
                   className='right-0 top-0 absolute translate-x-0 translate-y-10'
-                  placeholder='blur'
                 />
               </div>
               <div className='mt-10'>
                 <Divider />
               </div>
               <div className='mt-10 flex flex-col gap-9 w-[570px] relative'>
-                <p className='text-primary text-3xl leading-6 dark:text-white'>
+                <p className='text-primary text-3xl leading-6 '>
                   <b>100% </b>Written Placement guarantee
                 </p>
                 <Stack
                   className='flex-wrap gap-3'
                   direction='row'
                 >
-                  <button className='px-7 py-3 text-xl capitalize rounded-full text-gray-700 dark:text-white border !border-borderColor'>
+                  <button className='px-7 py-3 text-xl capitalize rounded-full text-gray-700  border !border-borderColor'>
                     Web development
                   </button>
-                  <button className='px-7 py-3 text-xl capitalize rounded-full text-gray-700 dark:text-white border !border-borderColor'>
+                  <button className='px-7 py-3 text-xl capitalize rounded-full text-gray-700  border !border-borderColor'>
                     Designing
                   </button>
                   <button
@@ -65,13 +64,13 @@ export default function Index() {
                     <MdArrowOutward />
                     UI/UX Designing
                   </button>{' '}
-                  <button className='px-7 py-3 text-xl capitalize rounded-full text-gray-700 dark:text-white border !border-borderColor'>
+                  <button className='px-7 py-3 text-xl capitalize rounded-full text-gray-700  border !border-borderColor'>
                     Ai
                   </button>{' '}
-                  <button className='px-7 py-3 text-xl capitalize rounded-full text-gray-700 dark:text-white border !border-borderColor'>
+                  <button className='px-7 py-3 text-xl capitalize rounded-full text-gray-700  border !border-borderColor'>
                     Machine learning
                   </button>
-                  <button className='px-7 py-3 text-xl capitalize rounded-full text-gray-700 dark:text-white border !border-borderColor'>
+                  <button className='px-7 py-3 text-xl capitalize rounded-full text-gray-700  border !border-borderColor'>
                     Wordpress development
                   </button>
                 </Stack>
@@ -79,19 +78,16 @@ export default function Index() {
                   src={StarIcon}
                   alt='Arrow Image'
                   className='right-0 top-0 absolute -translate-x-[0%] translate-y-[30%]'
-                  placeholder='blur'
                 />
                 <Image
                   src={StarIcon}
                   alt='Arrow Image'
                   className='right-0 top-0 translate-x-[200%] translate-y-[500%] absolute w-8'
-                  placeholder='blur'
                 />
                 <Image
                   src={StarIcon}
                   alt='Arrow Image'
                   className='right-0 bottom-0 absolute w-8 -translate-x-[100%] translate-y-[150%]'
-                  placeholder='blur'
                 />
               </div>
             </div>
@@ -105,7 +101,7 @@ export default function Index() {
               <div className='self-center px-5  max-md:max-w-full'>
                 <div className='flex gap-5 max-md:flex-col max-md:gap-0 max-md:'>
                   <section className='flex flex-col w-[65%] max-md:ml-0 max-md:w-full'>
-                    <p className='mt-10 text-xl leading-6 text-neutral-700 max-md:mt-10 dark:text-white'>
+                    <p className='mt-10 text-xl leading-6 text-neutral-700 max-md:mt-10 '>
                       20,000+ Placements in 250 MNC Giants.22 Awards of
                       Excellence. Top MNC Brand placements. Lifetime access to
                       Videos
@@ -126,7 +122,7 @@ export default function Index() {
                         20k
                       </div>
                     </div>
-                    <p className='mt-4 dark:text-white'>students passed</p>
+                    <p className='mt-4 '>students passed</p>
                   </div>
                 </div>
               </div>
@@ -136,7 +132,6 @@ export default function Index() {
                     <Image
                       src={Certification}
                       alt='Certification'
-                      placeholder='blur'
                     />
                   </div>
                   <div className='flex flex-col w-full'>
@@ -144,7 +139,6 @@ export default function Index() {
                       src={Student}
                       alt='Student'
                       className='rounded-md shadow-lg  '
-                      placeholder='blur'
                     />
                   </div>
                 </div>

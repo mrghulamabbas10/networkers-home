@@ -38,7 +38,6 @@ export default function Index() {
                 src={ArrowImage}
                 alt='Arrow Image'
                 className='right-0 top-0 absolute rotate-12 translate-x-32 -translate-y-10'
-                placeholder='blur'
               />
             </div>
           </Grid>
@@ -47,7 +46,7 @@ export default function Index() {
             md={5}
             xs={8}
           >
-            <div className='flex gap-5 items-center ml-10 py-3 border-b-2 border-primary text-xl text-primary dark:text-white'>
+            <div className='flex gap-5 items-center ml-10 py-3 border-b-2 border-primary text-xl text-primary '>
               <SearchIcon />
               <input
                 type='text'
@@ -55,7 +54,7 @@ export default function Index() {
               />
             </div>
 
-            <p className='mt-8 text-gray-500 dark:text-white text-lg'>
+            <p className='mt-8 text-gray-500  text-lg'>
               online platforms often offer micro-courses or modules, allowing
               learners to focus on specific topics of interest and acquire
               targeted skills.
@@ -112,7 +111,6 @@ export default function Index() {
                           src={StudentImage2}
                           alt='Student Image'
                           className='rounded-3xl w-[524px] h-[461px] object-cover'
-                          placeholder='blur'
                         />
                       </div>
                     </div>

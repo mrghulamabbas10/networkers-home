@@ -37,7 +37,6 @@ export default function index() {
                 src={ArrowImage}
                 alt='Arrow Image'
                 className='right-0 top-0 absolute rotate-6 translate-x-0 -translate-y-6'
-                placeholder='blur'
               />
             </div>
           </Grid>
@@ -46,11 +45,11 @@ export default function index() {
             md={4}
             xs={12}
           >
-            <button className='flex gap-5 items-center py-3 border-b-2 border-primary text-xl text-primary dark:text-white'>
+            <button className='flex gap-5 items-center py-3 border-b-2 border-primary text-xl text-primary '>
               Explore now
               <ArrowIcon />
             </button>
-            <p className='mt-8 text-gray-500 dark:text-white text-lg'>
+            <p className='mt-8 text-gray-500  text-lg'>
               Online education has made quality education more accessible to a
               wider range of learners. It removes barriers such as geographical
               limitations.
@@ -64,7 +63,6 @@ export default function index() {
           className='xl:block lg:hidden'
         >
           <Image
-            placeholder='blur'
             src={ScrollDown}
             alt='ScrollDown'
             className='absolute translate-x-10 translate-y-[70%] top-0 left-0'
@@ -85,7 +83,6 @@ export default function index() {
                   <section className='flex flex-col justify-center text-blue-950'>
                     <article className='flex overflow-hidden relative flex-col pb-12 pl-7 w-full aspect-[1.14]'>
                       <Image
-                        placeholder='blur'
                         loading='lazy'
                         src={Box1Image}
                         alt='A visual representation of flexibility in education'
@@ -97,7 +94,6 @@ export default function index() {
                         </h1>
                         <Link href='#'>
                           <Image
-                            placeholder='blur'
                             loading='lazy'
                             src={BoxArrow1}
                             alt='Decorative'
@@ -121,7 +117,6 @@ export default function index() {
                   <section className='flex flex-col justify-center   text-blue-950'>
                     <article className='flex overflow-hidden relative flex-col pt-12 pl-7 w-full aspect-[1.14]'>
                       <Image
-                        placeholder='blur'
                         loading='lazy'
                         src={Box2Image}
                         alt='Secondary course imagery'
@@ -138,7 +133,6 @@ export default function index() {
                         </h2>
                         <Link href='#'>
                           <Image
-                            placeholder='blur'
                             loading='lazy'
                             src={BoxArrow2}
                             alt='Accessibility emblem'
@@ -157,7 +151,6 @@ export default function index() {
                   <section className='flex flex-col justify-center max-w-[388px] text-blue-950'>
                     <div className='flex overflow-hidden relative flex-col pb-12 pl-7 w-full aspect-[1.14]'>
                       <Image
-                        placeholder='blur'
                         loading='lazy'
                         src={Box3Image}
                         alt='Interactive Learning Visual Representation'
@@ -167,7 +160,6 @@ export default function index() {
                         <h1 className='mt-11'>Interactive Learning</h1>
                         <Link href='#'>
                           <Image
-                            placeholder='blur'
                             loading='lazy'
                             src={BoxArrow3}
                             alt='Interactive Learning Emblem'
