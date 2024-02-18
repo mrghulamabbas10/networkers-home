@@ -12,6 +12,11 @@
   src: url("/Aeonik-font/AeonikTRIAL-light.otf");
 }
 
+@font-face {
+  font-family: "AeonikLightItalic";
+  src: url("/Aeonik-font/AeonikTRIAL-LightItalic.otf");
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -45,8 +50,18 @@ p {
   margin: 0;
 }
 
+.AeonikLightItalic {
+  font-family: "AeonikLightItalic";
+}
+
 
 .text_color {
+  background: linear-gradient(to bottom right, #232D4F, rgba(35, 45, 79, 0.8));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_color_top_bottom {
   background: linear-gradient(to bottom right, #232D4F, rgba(35, 45, 79, 0.8));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -55,7 +70,7 @@ p {
 .blod {
   font-family: "AeonikBold";
   line-height: 110px;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-strokeWidth: 1px;
   -webkit-text-stroke-color: black;
 }
 
@@ -74,7 +89,81 @@ p {
   background: url("/assets/images/button-elips.png");
   background-repeat: no-repeat;
   top: 0;
-  right: -120px;
+  right: 0;
   position: absolute;
-  /* display: inline-block; */
+  transform: translateX(120px);
+}
+
+
+.top_curcal_gradient {
+  background-image: linear-gradient(to right, #eeeeee, #fff);
+}
+
+.discover_more {
+  background: linear-gradient(to bottom right, #7F00FF, #E86CF9);
+}
+
+.experience {
+  background: linear-gradient(to bottom right, #FF5858, #FA9372);
+}
+
+.price {
+  background: linear-gradient(to bottom right, #FF002E, #E86CF9);
+}
+
+.week_box {
+  background: linear-gradient(to bottom right, #FC624D, #fff);
+}
+
+.week_text {
+  background: linear-gradient(to bottom right, rgb(255, 255, 255), rgba(255, 255, 255, 0.5));
+}
+
+.lessons_bg {
+  background: linear-gradient(to bottom right, #8687FF, #fff);
+}
+
+.transition_all {
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+
+/* ========== */
+
+.main {
+  display: grid;
+  place-items: center;
+}
+
+.accordion {
+  list-style-type: none;
+  display: flex;
+  gap: 0.15rem;
+  padding: 0.15rem;
+
+  & .item {
+    flex: 1;
+    height: 70vmin;
+    cursor: pointer;
+    overflow: hidden;
+    transition: flex 1s;
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transform: scale(1.5);
+      transition: transform 0.75s ease-in-out;
+    }
+  }
+}
+
+.animation.item {
+  flex: 5;
+
+  & img {
+    transform: scale(1);
+  }
 }

@@ -9,7 +9,7 @@ import Navbar from '@/app/components/layout/navbar'
 import Footer from '@/app/components/layout/footer'
 
 const outfit = Outfit({
-  weight: ['400', '700'],
+  weight: ['100', '200', '300', '400', '500', '600', '700'],
   style: ['normal'],
   subsets: ['latin'],
   display: 'swap',

@@ -11,11 +11,19 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      xs: '320px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      xxl: '1536px',
+    },
     extend: {
       colors: {
         primary: '#242D4F',
         secondary: '#5E378F',
-        borderColor: 'rgba(35, 45, 79,0.4)',
+        borderColor: 'rgba(0, 0, 0, 0.12)',
         perpal: '#A345FF',
       },
     },
