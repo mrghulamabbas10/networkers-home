@@ -1,13 +1,13 @@
 /** @format */
-import Hero from './components/hero'
-import MarqueeSlide from './components/marquee Slide/slide1'
-import MarqueeSlide2 from './components/marquee Slide/slide2'
-import GrowSkills from './components/growSkills'
-import AccessToLearning from './components/accessToLearning'
-import CourseSection from './components/courses'
-import PikCourse from './components/pikCourse'
-import SignUp from './components/signUp'
-import Teachers from './components/teachers'
+import Hero from '@/app/components/hero'
+import MarqueeSlide from '@/app/components/marquee Slide/slide1'
+import MarqueeSlide2 from '@/app/components/marquee Slide/slide2'
+import GrowSkills from '@/app/components/growSkills'
+import AccessToLearning from '@/app/components/accessToLearning'
+import CourseSection from '@/app/components/courses'
+import PikCourse from '@/app/components/pikCourse'
+// import SignUp from '@/app/components/signUp'
+// import Teachers from '@/app/components/teachers'
 
 export default function Home() {
   return (
@@ -19,8 +19,8 @@ export default function Home() {
       <AccessToLearning />
       <CourseSection />
       <PikCourse />
-      <SignUp />
-      <Teachers />
+      {/* <SignUp />
+      <Teachers /> */}
     </>
   )
 }
