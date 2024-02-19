@@ -15,7 +15,7 @@ import {
 import ArrowIcon from '../assets/svg/arrow'
 import Teachers from './slider'
 
-export default function Index() {
+export default function index() {
   return (
     <div className='border-b border-borderColor'>
       <Container maxWidth='xl'>
