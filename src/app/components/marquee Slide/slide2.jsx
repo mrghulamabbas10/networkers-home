@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Slide2() {
   return (
-    <div className='-rotate-6 -mx-4 -mt-32'>
+    <div className='-rotate-6 -mx-4 -mt-[150px]'>
       <marquee
         className='marq h-36 bg-primary text-white pt-12'
         bgcolor='Green'

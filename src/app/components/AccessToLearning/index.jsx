@@ -39,7 +39,7 @@ export default function index() {
                     />
                   </div>
                   <div className='bg-white absolute bottom-0 right-0 p-5 rounded-tl-3xl '>
-                    <button className='flex items-center gap-4 -mr-10 px-5 py-2 discover_more rounded-xl text-white lg:text-2xl'>
+                    <button className='flex items-center text-start font-light gap-4 -mr-10 px-5 py-2 discover_more rounded-xl text-white lg:text-2xl'>
                       Discover <br /> more
                       <svg
                         width='40'
