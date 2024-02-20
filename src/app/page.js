@@ -3,7 +3,7 @@ import Hero from '@/app/components/hero'
 import MarqueeSlide from '@/app/components/marquee Slide/slide1'
 import MarqueeSlide2 from '@/app/components/marquee Slide/slide2'
 import GrowSkills from '@/app/components/growSkills'
-import AccessToLearning from '@/app/components/accessToLearning'
+// import AccessToLearning from '@/app/components/accessToLearning'
 import CourseSection from '@/app/components/courses'
 import PikCourse from '@/app/components/pikCourse'
 import SignUp from '@/app/components/signUp'
@@ -18,7 +18,7 @@ export default function Home() {
       <MarqueeSlide />
       <MarqueeSlide2 />
       <GrowSkills />
-      <AccessToLearning />
+      {/* <AccessToLearning /> */}
       <CourseSection />
       <PikCourse />
       <SignUp />
