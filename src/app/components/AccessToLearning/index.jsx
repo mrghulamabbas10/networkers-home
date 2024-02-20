@@ -7,7 +7,7 @@ import React from 'react'
 import StudentImage from '../../../../public/assets/images/student-2.webp'
 import StudentImage2 from '../../../../public/assets/images/student3.webp'
 
-export default function index() {
+export default function AccessToLearning() {
   return (
     <div className='xl:border-b border-borderColor'>
       <Container maxWidth='xl'>

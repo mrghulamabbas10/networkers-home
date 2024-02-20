@@ -52,7 +52,7 @@ export default function index() {
                 md={7}
                 xs={12}
               >
-                <div className='w-[115%]'>
+                <div className='xxl:w-[115%]'>
                   <Teachers />
                 </div>
               </Grid>

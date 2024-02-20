@@ -8,6 +8,8 @@ import CourseSection from '@/app/components/courses'
 import PikCourse from '@/app/components/pikCourse'
 import SignUp from '@/app/components/signUp'
 import Teachers from '@/app/components/teachers'
+import Testimonial from '@/app/components/testimonial'
+import Bloge from '@/app/components/blogs'
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
       <PikCourse />
       <SignUp />
       <Teachers />
+      <Testimonial />
+      <Bloge />
     </>
   )
 }

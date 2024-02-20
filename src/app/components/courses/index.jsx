@@ -51,7 +51,7 @@ export default function Index() {
                 md={5}
                 xs={8}
               >
-                <div className='flex gap-5 items-center ml-10 py-3 border-b-2 border-primary text-xl text-primary dark:text-white'>
+                <div className='flex gap-5 items-center ml-10 py-3 border-b-2 border-primary text-xl text-primary '>
                   <SearchIcon />
                   <input
                     type='text'

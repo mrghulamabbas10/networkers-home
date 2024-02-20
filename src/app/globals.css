@@ -143,6 +143,23 @@ p {
   background: linear-gradient(#FF008A, #E86CF9);
 }
 
+.testimonial {
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+}
+
+.testimonial_bg {
+  background: linear-gradient(to bottom right, #8687FF, #fff);
+}
+
+.testimonial_bg_2 {
+  background: linear-gradient(to bottom right, #FF8686, #fff);
+}
+
+.testimonial_bg_elips {
+  background-image: url('/assets/images/testimonial-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /* ========== */
 

@@ -70,7 +70,7 @@ export default function Index() {
                 md={7}
                 xs={12}
               >
-                <div className='lg:w-[115%]'>
+                <div className='xxl:w-[115%]'>
                   <SimpleSlider />
                 </div>
               </Grid>
